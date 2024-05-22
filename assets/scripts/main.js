@@ -27,7 +27,7 @@ function fetchRecipesFromStorage() {
 	return JSON.parse(localStorage.getItem('recipes')) || [];
 }
 
-/**
+/** 
  * Takes in an array of recipes and for each recipe creates a
  * new <recipe-card> element, adds the recipe data to that card
  * using element.data = {...}, and then appends that new recipe
